@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*.pyc
+*$py.class
+
+# Dataset
+dataset/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# Test, coverage, and type-checker output
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Packaging and build output
+.python-version
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# PyTorch model artifacts and training output
+*.pth
+*.pt
+checkpoints/
+runs/
+wandb/
+
+# Model files
+# Uncomment if model.pth is large
+# models/*.pth
+
+# macOS
+.DS_Store
